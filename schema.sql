@@ -1,0 +1,13 @@
+-- This script populates the tables with data.
+
+-- Insert data into the ARTIST table
+INSERT INTO ARTIST (ARTIST_ID, NAME, FAMILY_NAME, ORIGIN) VALUES (1, 'Elton', 'John', 'England');
+INSERT INTO ARTIST (ARTIST_ID, NAME, FAMILY_NAME, ORIGIN) VALUES (2, 'Freddy', 'Mercury', 'England');
+INSERT INTO ARTIST (ARTIST_ID, NAME, FAMILY_NAME, ORIGIN) VALUES (3, 'Jim', 'Morrison', 'United States');
+
+-- Insert data into the SOLD_ALBUMS table
+INSERT INTO SOLD_ALBUMS (ARTIST_ID, SOLD_ALBUMS, NOTES) VALUES (3, 120, 'With the Doors');
+INSERT INTO SOLD_ALBUMS (ARTIST_ID, SOLD_ALBUMS, NOTES) VALUES (2, 250, 'None');
+INSERT INTO SOLD_ALBUMS (ARTIST_ID, SOLD_ALBUMS, NOTES) VALUES (4, 250, 'Solo with the Rolling Stones');
+INSERT INTO SOLD_ALBUMS (ARTIST_ID, SOLD_ALBUMS, NOTES) VALUES (1, 20, 'SOLO');
+
